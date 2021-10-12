@@ -1,1 +1,12 @@
-# CS360FinalProject
+# Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
+This app was designed as an inventory management application to be used for either small business purposes or personal use.  The app provides a secure login and allows the user to add items to their inventory database as well as edit and delete them.  The app will also notify the user if an item in inventory is out of stock via SMS messaging.
+# What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
+The main screens were the login screen and the inventory table.  There was also a screen for the user to set their preference for receiving SMS messages from the app.  Within the inventory table, popup windows were used to add or edit items.  These screens were provided for the user to try to display the information in a meaningful way without cluttering up the screen.
+# How did you approach the process of coding your app? What techniques or strategies did you use? How could those be applied in the future?
+My main approach was to break down the code into small chunks to keep each piece of functionality separate.  This will allow for the code to be re-used in future projects.  I also created multiple classes within the code that each had one specific purpose.
+# How did you test to ensure your code was functional? Why is this process important and what did it reveal?
+I tested each piece of code as I developed it to ensure it was working as expected.  I then did an overall test of the finished app to make sure the finished product worked with all of the pieces put together.  I think it was important to test this way to catch and fix any errors early on without trying to troubleshoot everything at the end.
+# Considering the full app design and development process, from initial planning to finalization, where did you have to innovate to overcome a challenge?
+The main challenge I had to overcome was making the information in the inventory table readable for the user on a mobile screen.  I decided to use a list view and have each item as a row in the list.  I also used popup windows for adding and editing items to keep the screen uncluttered.
+# In what specific component from your mobile app were you particularly successful in demonstrating your knowledge, skills, and experience?
+I think my inventory table was particularly successful in this project.  It demonstrated my knowledge of SQL and performing CRUD operations to maintain a detailed inventory.
